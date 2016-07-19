@@ -119,3 +119,7 @@ body, html {
 	position: relative;
 	top: 20px;
 }
+
+.nav > li.active {
+	background-color: #009688;
+}
