@@ -8,7 +8,7 @@ body, html {
 
 .parallax {
     /* The image used */
-    background-image: url("img_parallax.jpg");
+    background-image: url("");
 
     /* Full height */
     height: 100%;
@@ -32,7 +32,7 @@ body, html {
   position: relative;
   text-align: center;
   cursor: default;
-  background: #42b078;
+  background: #009688;
 }
 
 .hovereffect .overlay {
@@ -60,8 +60,8 @@ body, html {
   backface-visibility: hidden;
   
   
-  opacity: 0.3;
-  filter: alpha(opacity=30);
+  opacity: 0.35;
+  filter: alpha(opacity=35);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }

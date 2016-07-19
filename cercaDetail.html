@@ -17,9 +17,9 @@
 		<link rel="stylesheet" type="text/css" href="dist/css/ripples.min.css">
 		<link rel="stylesheet" type="text/css" href="dist/css/custom.css">
     </head>
-    <body class="sfondo">
-    	
-    	<div class="navbar navbar-default">
+    <body>
+		
+		<div class="navbar navbar-default" style="margin-bottom: 0">
 	        <div class="navbar-header" style="height: 60px;">
 	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 	                    <div style="height: 6px;"></div>
@@ -40,23 +40,40 @@
     	
     	<!-- QUI VA IL CODICE -->
     	
-    	<div class="container-fluid">
-    		<div class="row-fluid">
-    			<div class="col-xs-12 jumbotron">
-					  <div class="input-group">
-					    <input id="addon2" class="form-control" type="text" placeholder="luogo e/o parola chiave">
-					    <span class="input-group-btn">
-					      <button type="button" class="btn btn-fab btn-fab-mini">
-					        <i class="material-icons">search</i>
-					      </button>
-					    </span>
-					  </div>
-    			</div>    			
-    		</div>
-    		<div class="row-fluid">
-    			<div class="col-xs-12 nopadding">
-    				<div class="list-group">
-    					<!--
+			<ul class="nav nav-tabs" style="background: #00B09F">
+			  <li class="text-center" style="width: 25%"><a href="javascript:history.back();">Indietro</a></li>
+			  <li class="active text-center" style="width: 25%"><a href="#home" data-toggle="tab">Descrizione Tour</a></li>
+			  <li class="text-center" style="width: 25%"><a href="#profile" data-toggle="tab">Dettagli Utente</a></li>
+			  <li class="text-center" style="width: 25%"><a href="#">Prenota</a></li>
+			</ul>
+			<div id="myTabContent" class="tab-content">
+			  <div class="tab-pane fade active in" id="home">
+			  	<img class="img-responsive" src="http://lorempixel.com/500/500/nightlife/" alt="icon">
+			    <p class="text-justify">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+			    <img class="img-responsive" src="//maps.googleapis.com/maps/api/staticmap?center=perugia&zoom=15&scale=1&size=600x350&maptype=roadmap&format=png&visual_refresh=true" alt="Google Map of perugia">
+			  </div>
+			  <div class="tab-pane fade" id="profile">
+			  	<div class="container-fluid">
+			  		<div class="row-fluid">
+			  			<div class="col-xs-6">
+			  				<img class="img-responsive" src="//lorempixel.com/500/500/people/" alt="user icon">
+							<ul class="nav nav-pills">
+							  <li class="active"><a href="javascript:void(0)">Home <span class="badge">42</span></a></li>
+							  <li><a href="javascript:void(0)">Messages <span class="badge">3</span></a></li>
+							</ul>			  				
+			  			</div>
+			  			<div class="col-xs-6">
+			  				<p class="text-justify">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
+			  			</div>
+			  		</div>	
+			  		<div class="row-fluid">
+			  			<div class="col-xs-12">
+			  				<hr class="divider" />
+			  			</div>			  			
+			  		</div>			  		
+			  		<div class="row-fluid">
+			  			<div class="col-xs-12">
+	  				<div class="list-group">
 					  <div class="list-group-item">
 					    <div class="row-picture">
 					    	<div class="text-center">
@@ -77,11 +94,11 @@
 					    
 					  </div>
 					  <div class="list-group-separator"></div>
-					  -->
+
 					  <div class="list-group-item">
 					    <div class="row-picture">
 					    	<div class="text-center">
-					    		<img class="circle" src="img/gabriele.jpg" alt="icon">
+					    		<img class="circle" src="http://lorempixel.com/56/56/people/2" alt="icon">
 					    		<span class="">gab</span>
 					    	</div>
 					      					   
@@ -106,7 +123,7 @@
 					  <div class="list-group-item">
 					    <div class="row-picture">
 					    	<div class="text-center">
-					    		<img class="circle" src="img/marco.jpg" alt="icon">
+					    		<img class="circle" src="http://lorempixel.com/56/56/people/3" alt="icon">
 					    		<span class="">marco</span>
 					    	</div>
 					      					   
@@ -127,7 +144,7 @@
 					  <div class="list-group-item">
 					    <div class="row-picture">
 					    	<div class="text-center">
-					    		<img class="circle" src="img/lalli.jpg" alt="icon">
+					    		<img class="circle" src="http://lorempixel.com/56/56/people/4" alt="icon">
 					    		<span class="">fabio</span>
 					    	</div>
 					      					   
@@ -188,9 +205,11 @@
 					  <div class="list-group-separator"></div>
 					  
 					  </div>
-    			</div>    			
-    		</div>
-    	</div>
+			  			</div>
+			  		</div>		  		
+			  	</div>
+			  </div>
+			</div>
     	
 	    <script src="//code.jquery.com/jquery-3.1.0.slim.min.js"></script>
 	    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>

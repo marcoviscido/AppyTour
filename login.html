@@ -2,12 +2,12 @@
 "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>New Web Project</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Material Design fonts -->
 		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
 		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 		
 		<!-- Bootstrap -->
 		<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -78,13 +78,10 @@
 			</div>
 		</div>
     	
-	    <script src="//code.jquery.com/jquery-3.1.0.slim.min.js"></script>
+	   <script src="//code.jquery.com/jquery-3.1.0.slim.min.js"></script>
+	    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 	    <script src="dist/js/material.min.js"></script>
 	    <script src="dist/js/ripples.min.js"></script>
-	    <script>
-	    	$(document).ready(function(){
-	    		$.material.init();
-	    	});
-	    </script>
+	    <script>$.material.init();</script>
     </body>        
 </html>
