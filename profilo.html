@@ -39,17 +39,28 @@
 	    </div>
     	
     	<!-- QUI VA IL CODICE -->
-			   	
-   				  	<div class="container-fluid nopadding" style="margin-bottom: 8px !important">
+		<ul class="nav nav-tabs mioprofilo" style="background-color: #00B09F">
+		  <li style="background-color: #00B09F"><a href="#mioProfilo" data-toggle="tab">Il mio profilo</a></li>		  
+		</ul>
+		<div id="myTabContent" class="tab-content">
+		  <div class="tab-pane fade active in" id="mioProfilo">
+		       				  	<div class="container-fluid nopadding" style="margin-bottom: 8px !important">
 			  		<div class="row-fluid">
 			  			<div class="col-xs-6 nopadding">			  				
 			  				<img class="img-responsive" src="img/marco.jpg" alt="user icon">
-			  				<div style="position: absolute; top: 130px; left: 130px;">
-								<i class="material-icons text-primary">mode_edit</i>
+			  				<div style="position: absolute; top: 15px; left: 15px;">
+			  					<button class="btn btn-fab btn-fab-mini btn-default">
+			  						<i class="material-icons text-primary">mode_edit</i>
+			  					</button>								
 							</div>
 			  				<h4 class="text-primary text-center">marco</h4>
 							<div class="panel panel-success">
 							  <div class="panel-heading">
+							  	<div class="pull-right">
+									<button class="btn btn-fab btn-fab-mini btn-default">
+			  							<i class="material-icons text-primary">mode_edit</i>
+			  						</button>
+								</div>
 							    <h3 class="panel-title">Verifiche</h3>
 							  </div>
 							  <div class="panel-body">
@@ -70,14 +81,16 @@
 							    		<i class="material-icons text-success" style=" vertical-align: middle;">check_circle</i>
 							    		<span>AirBnb</span>
 							    	</li>
-							    </ul>
-							    <div style="position: relative; top: 10px; left: 115px;">
-									<i class="material-icons text-primary">mode_edit</i>
-								</div>
+							    </ul>							    
 							  </div>
 							</div>										  				
 			  			</div>
 			  			<div class="col-xs-6 nopadding">
+			  				<div style="position: absolute; top: 15px; right: 15px;">
+			  					<button class="btn btn-fab btn-fab-mini btn-default">
+			  						<i class="material-icons text-primary">mode_edit</i>
+			  					</button>								
+							</div>
 			  				<div class="container-fluid nopadding">
 			  					<div class="row-fluid">
 			  						<div class="col-xs-12">
@@ -196,7 +209,9 @@
 			  			</div>			  						
 			  		</div>
 		  		</div>	
-   	
+		  </div>		  
+		</div>
+		    				   	  	
    	
 	    <script src="//code.jquery.com/jquery-3.1.0.slim.min.js"></script>
 	    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
