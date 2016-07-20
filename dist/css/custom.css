@@ -123,3 +123,28 @@ body, html {
 .nav > li.active {
 	background-color: #009688;
 }
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background-color: #009688;
+}
+
+.nav-pills>.active>a>.badge {
+	color: #009688;
+}
+
+div.row-picture {
+	vertical-align: top;
+}
+
+.nav-tabs.rtc > li {
+	background-color: #CCC;
+}
+
+.nav-tabs.rtc > li > a > span.badge {
+	background-color: #FFF;
+	color: #777;
+}
+
+.nav-tabs.rtc > li.active {
+	background-color: #009688;
+}
