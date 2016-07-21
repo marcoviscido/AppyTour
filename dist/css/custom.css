@@ -31,8 +31,8 @@ body, html {
   overflow: hidden;
   position: relative;
   text-align: center;
-  cursor: default;
   background: #009688;
+  cursor: pointer;
 }
 
 .hovereffect .overlay {
@@ -148,3 +148,9 @@ div.row-picture {
 .nav-tabs.rtc > li.active {
 	background-color: #009688;
 }
+
+.img-upload {
+	border-radius: 6px;
+	background-color: ##777;
+	border: 1px dashed #CCC;
+	margin-bottom: 20px;
